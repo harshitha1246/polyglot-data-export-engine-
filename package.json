@@ -1,0 +1,20 @@
+{
+  "name": "polyglot-data-export-engine",
+  "version": "1.0.0",
+  "description": "High-performance streaming export engine",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node src/test.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "pg": "^8.11.0",
+    "pg-query-stream": "^4.1.0",
+    "csv-stringify": "^6.4.0",
+    "stream-json": "^1.7.4",
+    "xml-writer": "^1.0.0",
+    "parquetjs-lite": "^0.8.7",
+    "uuid": "^9.0.0"
+  }
+}
